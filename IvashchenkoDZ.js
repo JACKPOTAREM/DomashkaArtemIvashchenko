@@ -196,3 +196,10 @@ if (age >= 14 && age <= 90) {
         i++; /// Через HTML
     }
 }
+{
+    let number;
+
+    do {
+        number = prompt("Ввести число большее 100");
+    } while (number <= 100 && number); /// Через HTML
+}
