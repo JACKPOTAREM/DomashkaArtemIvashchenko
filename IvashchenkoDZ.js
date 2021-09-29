@@ -78,7 +78,13 @@ if (age >= 14 && age <= 90) {
     }
 }
 
+{
+    let num = 1000;
+    while (num < 50) {
 
+    } num = num / 2;
+    console.log(num); /// Возникли трудности, не понимаю как доделать.
+}
 
 
 {
@@ -203,3 +209,4 @@ if (age >= 14 && age <= 90) {
         number = prompt("Ввести число большее 100");
     } while (number <= 100 && number); /// Через HTML
 }
+
