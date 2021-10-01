@@ -20,7 +20,23 @@ if (age >= 14 && age <= 90) {
 
 
 
+function test(num) {
+    for (let i = 2; i <= num - 1; i++) {
+        if (num % i === 0) {
+            return;
+        }
+    }
 
+    return true;
+}
+
+for (let i = 2; i <= 10; i++) {
+    const isSimple = test(i);
+
+    if (isSimple) {
+        console.log(i)
+    }
+}
 
 
 
